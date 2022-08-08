@@ -1,0 +1,23 @@
+.open-component {
+    background-color: antiquewhite;
+    padding: 10px;
+    text-align: center;
+    width: 600px;
+    margin: auto;
+}
+.priority-one {
+    margin: 10px;
+    background-color: red;
+}
+.priority-two {
+    margin: 10px;
+    background-color: orange;
+}
+.priority-three {
+    margin: 10px;
+    background-color: yellow;
+}
+
+btn-div button {
+    background-color: aqua;
+}

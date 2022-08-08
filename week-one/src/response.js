@@ -1,0 +1,60 @@
+let data = [
+    {
+        ticketID: 12341,
+        ticketTimeStamp: 12341,
+        priority: 2,
+        ticketDesc: 'Not able to start the computer',
+        ticketStatus: 'open',
+        ticketSummary: '',
+    },
+    {
+        ticketID: 12342,
+        ticketTimeStamp: 12342,
+        priority: 1,
+        ticketDesc: 'Error 404 is shown',
+        ticketStatus: 'open',
+        ticketSummary: 'Resource was not there, it is fixed now.',
+    },
+    {
+        ticketID: 12343,
+        ticketTimeStamp: 12343,
+        priority: 2,
+        ticketDesc: 'Assests not delivered',
+        ticketStatus: 'closed',
+        ticketSummary: 'Delived on 07-08-2022',
+    },
+    {
+        ticketID: 12345,
+        ticketTimeStamp: 12345,
+        priority: 3,
+        ticketDesc: 'Have not recieved the goodies',
+        ticketStatus: 'open',
+        ticketSummary: '',
+    },
+    {
+        ticketID: 12346,
+        ticketTimeStamp: 12346,
+        priority: 2,
+        ticketDesc: 'Not able to connect with VPN',
+        ticketStatus: 'closed',
+        ticketSummary: 'There was network issue from the user end, now it is resolved',
+    },
+    {
+        ticketID: 12347,
+        ticketTimeStamp: 12347,
+        priority: 1,
+        ticketDesc: 'Name in the ID card is incorrect',
+        ticketStatus: 'open',
+        ticketSummary: '',
+    },
+    {
+        ticketID: 12348,
+        ticketTimeStamp: 12348,
+        priority: 3,
+        ticketDesc: 'Not able to start the assessment',
+        ticketStatus: 'closed',
+        ticketSummary: 'Server issue was there, resolved now',
+    },
+]
+
+export default data
