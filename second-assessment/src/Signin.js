@@ -15,9 +15,10 @@ function Signin(props) {
         if (key === 'password') {
             setPassword(e.target.value)
             console.log(e.target.value);
+            authLogin(e.target.value);
         }
         console.log("before auth");
-        authLogin(e.target.value);
+        
     }
 
     const authLogin = (val) => {

@@ -21,7 +21,7 @@ function Products(props) {
         console.log(filBook);
     }
 
-
+ 
     //filtering data based on the key
     const sortBook = (event, key) => {
         if(key === 'price') {
